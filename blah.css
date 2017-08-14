@@ -1,0 +1,88 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+div.container{
+  position: fixed;
+  left: 50px;
+  top: 50px;
+  height: 240px;
+  width: 194px;
+}
+
+div.pix {
+  background-color : white;
+  height: 10px;
+  width: 10px;
+  margin:0px;
+  padding: 0px;
+  float: left;
+  border: 1px solid grey;
+}
+
+div.canvas {
+  position: absolute;
+  margin:0px;
+  padding:0px;
+  width:192px;
+  height:192px;
+  border: 1px solid black;
+}
+
+#palette {
+  position: absolute;
+  bottom: 20px;
+  height: 20px;
+
+  border: 2px solid grey;
+  width: 189px
+}
+
+button.red { background-color: red;
+  width: 21px;
+  height: 21px;
+  float:left;
+}
+button.blue { background-color: blue;
+  width: 21px;
+  height: 21px;
+  float:left;
+}
+button.yellow {background-color: yellow;
+  width: 21px;
+  height: 21px;
+  float:left;
+}
+button.green {background-color: green;
+  width: 21px;
+  height: 21px;
+  float:left;
+}
+button.purple {background-color:purple;
+  width: 21px;
+  height: 21px;
+  float:left;
+}
+button.orange {background-color:orange;
+  width: 21px;
+  height: 21px;
+  float:left;
+  display: inline-block
+}
+button.black {background-color:black;
+  width: 21px;
+  height: 21px;
+  float:left;
+}
+button.eraser {background-color:white;
+  width: 21px;
+  height: 21px;
+  float:left;
+}
+#show {
+  width: 19px;
+  height: 18px;
+  float:left;
+  border: 1px solid black
+}
